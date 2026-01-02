@@ -2,7 +2,7 @@ import {Form} from 'react-router-dom';
 export const UserDetailsInputForm = ()=>{
   return (
     <div className="max-w-md mx-auto bg-white p-6 rounded-2xl shadow-md space-y-6">
-  <Form method="POST" encType="multipart/form-data" className="space-y-4">
+  <Form method="POST"  className="space-y-4">
     <div>
       <label
         htmlFor="profilePhoto"
